@@ -1,0 +1,503 @@
+/* General card styles */
+.card2, .card1, .card3 {
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    color: #444444;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: relative;
+    width: calc(33.333% - 20px); /* Adjusted width */
+    height: 420px;
+    margin: 10px; /* Margin between cards */
+    transition: transform 0.5s;
+}
+.tituloMainCotizador {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px; /* Adjust the value as needed */
+    padding-bottom: -10px;
+}
+
+
+.card2:hover, .card1:hover, .card3:hover {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.front {
+    z-index: 2;
+}
+
+.back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    z-index: 3;
+}
+
+.back .btn-simple {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+}
+
+.card2 .cover, .card1 .cover, .card3 .cover {
+    height: 105px;
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+}
+
+.card2 .cover img, .card1 .cover img, .card3 .cover img {
+    width: 100%;
+}
+
+.card2 .user, .card1 .user, .card3 .user {
+    border-radius: 50%;
+    display: block;
+    height: 120px;
+    margin: -55px auto 0;
+    overflow: hidden;
+    width: 120px;
+}
+
+.card2 .user img, .card1 .user img, .card3 .user img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #FFFFFF;
+    width: 100%;
+}
+
+.card2 .content, .card1 .content, .card3 .content {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    padding: 10px 20px 20px;
+}
+
+.card2 .content .main, .card1 .content .main, .card3 .content .main {
+    min-height: 160px;
+}
+
+.card2 .back .content .main, .card1 .back .content .main, .card3 .back .content .main {
+    height: 215px;
+}
+
+.card2 .name, .card1 .name, .card3 .name {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 10px 0 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card2 h5, .card1 h5, .card3 h5 {
+    margin: 5px 0;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card2 .profession, .card1 .profession, .card3 .profession {
+    color: #999999;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card2 .footer, .card1 .footer, .card3 .footer {
+    border-top: 1px solid #EEEEEE;
+    color: #999999;
+    margin: 30px 0 0;
+    padding: 10px 0 0;
+    text-align: center;
+}
+
+.card2 .footer .social-links, .card1 .footer .social-links, .card3 .footer .social-links {
+    font-size: 18px;
+}
+
+.card2 .footer .social-links a, .card1 .footer .social-links a, .card3 .footer .social-links a {
+    margin: 0 7px;
+}
+
+.card2 .footer .btn-simple, .card1 .footer .btn-simple, .card3 .footer .btn-simple {
+    margin-top: -6px;
+}
+
+.card2 .header, .card1 .header, .card3 .header {
+    padding: 15px 20px;
+    height: 90px;
+}
+
+.card2 .motto, .card1 .motto, .card3 .motto {
+    border-bottom: 1px solid #EEEEEE;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card2 .stats-container, .card1 .stats-container, .card3 .stats-container {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card2 .stats, .card1 .stats, .card3 .stats {
+    display: block;
+    float: left;
+    width: 33.333333%;
+    text-align: center;
+}
+
+.card2 .stats:first-child, .card1 .stats:first-child, .card3 .stats:first-child {
+    border-right: 1px solid #EEEEEE;
+}
+
+.card2 .stats:last-child, .card1 .stats:last-child, .card3 .stats:last-child {
+    border-left: 1px solid #EEEEEE;
+}
+
+.card2 .stats h4, .card1 .stats h4, .card3 .stats h4 {
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.card2 .stats p, .card1 .stats p, .card3 .stats p {
+    color: #777777;
+}
+
+.title {
+    color: #506A85;
+    text-align: center;
+    font-weight: 300;
+    font-size: 44px;
+    margin-bottom: 90px;
+    line-height: 90%;
+}
+
+.title small {
+    font-size: 17px;
+    color: #999;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.space-30 {
+    height: 30px;
+    display: block;
+}
+
+.space-50 {
+    height: 50px;
+    display: block;
+}
+
+.space-200 {
+    height: 200px;
+    display: block;
+}
+
+.white-board {
+    background-color: #FFFFFF;
+    min-height: 200px;
+    padding: 60px 60px 20px;
+}
+
+.ct-heart {
+    color: #F74933;
+}
+
+pre.prettyprint {
+    background-color: #ffffff;
+    border: 1px solid #999;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.atv, .str {
+    color: #05AE0E;
+}
+
+.tag, .pln, .kwd {
+    color: #3472F7;
+}
+
+.atn {
+    color: #2C93FF;
+}
+
+.pln {
+    color: #333;
+}
+
+.com {
+    color: #999;
+}
+
+.btn-simple {
+    opacity: .8;
+    color: #666666;
+    background-color: transparent;
+}
+
+.btn-simple:hover, .btn-simple:focus {
+    background-color: transparent;
+    box-shadow: none;
+    opacity: 1;
+}
+
+.btn-simple i {
+    font-size: 16px;
+}
+
+.navbar-brand-logo {
+    padding: 0;
+}
+
+.navbar-brand-logo .logo {
+    border: 1px solid #333333;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    width: 60px;
+}
+
+.navbar .navbar-brand-logo .brand {
+    color: #FFFFFF;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60px;
+}
+
+.navbar-default .navbar-brand-logo .brand {
+    color: #555;
+}
+
+/* Fix bug for IE */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .front, .back {
+        -ms-backface-visibility: visible;
+        backface-visibility: visible;
+    }
+
+    .back {
+        visibility: hidden;
+        -ms-transition: all 0.2s cubic-bezier(.92, .01, .83, .67);
+    }
+
+    .front {
+        z-index: 4;
+    }
+
+    .card-container:not(.manual-flip):hover .back, .card-container.manual-flip.hover .back {
+        z-index: 5;
+        visibility: visible;
+    }
+}
+
+/* Styles for card and container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px; /* Adjust this value to center the card */
+    gap: 10px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-between; /* Space the cards evenly */
+    width: 100%; /* Ensure the container takes the full width */
+    padding-top: 30px;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+}
+
+.card2, .card1, .card3 {
+    flex: 0 0 calc(33.333% - 20px); /* Each card takes about a third of the space */
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px;
+    color: #444444;
+    transform-style: preserve-3d;
+    position: relative;
+    height: 420px;
+    margin: 10px; /* Adds margin around the cards */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 1024px) {
+    .card-wrapper {
+        justify-content: center; /* Center the cards */
+    }
+
+    .card2, .card1, .card3 {
+        flex: 0 0 45%; /* Each card takes about half of the space */
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-wrapper {
+        justify-content: center; /* Center the cards */
+    }
+
+    .card2, .card1, .card3 {
+        flex: 0 0 100%; /* Full width for smaller screens */
+        margin-bottom: 20px;
+    }
+}
+
+/* Front and Back styles */
+.front.parte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/imagencard2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Ensure content does not exceed card size */
+}
+
+.front.parte2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/imagencard.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Ensure content does not exceed card size */
+}
+
+.front.parte0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/imagencard3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Ensure content does not exceed card size */
+}
+
+.front::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.front h1 {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the h1 precisely */
+    color: white;
+    font-size: 3em;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    max-width: 80%; /* Set a maximum width */
+    text-align: center; /* Center align the text */
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* Vertically center the content */
+    background-color: #e0e0e0; /* Lighter gray background */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    color: #555; /* Text color */
+    font-size: 18px; /* Font size */
+    text-align: center; /* Center-aligned text */
+    gap: 20px; /* Space between elements */
+    overflow: hidden; /* Ensure content does not exceed card size */
+}
+
+.back h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.back .quotebutton {
+    padding: 10px 20px;
+    background-color: #3F4543;
+    color: #fff; /* White button text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.back .quotebutton:hover {
+    background-color: #FC8002; /* Darker blue on hover */
+}
+
+/* Styles for the CotizadorContainer */
+.CotizadorContainer {
+    width: 90%; /* Making it 90% of its parent container's width */
+    max-width: 1200px; /* Maximum width to ensure it doesn't get too wide on larger screens */
+    margin: 10px auto; /* Centering the container and adding space around it */
+    padding: 10px; /* Adding padding inside the container */
+    box-sizing: border-box; /* Including padding and border in the total width */
+    min-height: 800px; /* Ensuring the minimum height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Modern border using box-shadow */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .CotizadorContainer {
+        width: 100%; /* Full width for smaller screens */
+        padding: 20px; /* Adding more padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card2, .card1, .card3 {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Adjust height for smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .front h1 {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+
+    .CotizadorContainer {
+        padding: 20px; /* Add padding to the container */
+    }
+}

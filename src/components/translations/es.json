@@ -1,0 +1,142 @@
+{
+  "home": "Inicio",
+  "designers": "Diseñadores",
+  "quote": "Cotización",
+  "about": "Acerca de nosotros",
+  "contact": "Contacto",
+  "services": "Servicios",
+  "register": "Registrarse",
+  "locker": "Casillero",
+  "title": "GIB Traders: Innovación y Soluciones en Movilidad",
+  "paragraph1": "En Gib Traders nos especializamos en movimientos estratégicos en Estados Unidos para diseñadores, ofreciendo servicios de 'WHITE GLOVE' de primera clase. Desde la recogida hasta la entrega, nos encargamos de cada detalle con precisión y cuidado excepcionales. Nuestro enfoque meticuloso garantiza que sus productos lleguen a su destino final de manera impecable, superando las expectativas de sus clientes. Confíe en nosotros para gestionar sus movimientos logísticos de manera eficiente y profesional, permitiéndole centrarse en su negocio principal mientras nosotros nos encargamos del resto. Igualmente:",
+  "paragraph2": "Presencia Global: Con sedes estratégicamente ubicadas, atendemos a clientes en todo el mundo.",
+  "paragraph3": "Experiencia Profunda: Nuestro conocimiento en todas las áreas de la logística nos coloca a la vanguardia de la industria, brindando soluciones efectivas y eficientes.",
+  "paragraph4": "Servicio Integral: Más que una empresa de transporte, ofrecemos servicios completos que incluyen bodegaje seguro y eficiente para sus productos.",
+  "paragraph5": "Compromiso con el Cliente: Nuestro enfoque en la satisfacción del cliente y la excelencia operativa nos convierte en el socio estratégico ideal para sus necesidades logísticas.",
+  "paragraph6": "Seguimiento Personalizado: A través de nuestro portal, puedes hacer un seguimiento detallado de tus pedidos y mantenerte informado en tiempo real.",
+  "heroTitle": "SU SOCIO GLOBAL EN TRANSPORTE, LOGÍSTICA, ALMACENAMIENTO Y ENTREGAS ESPECIALIZADAS.",
+  "heroService1": "Servicios para diseñadores White glove",
+  "heroService2": "Entregas especializadas",
+  "heroService3": "Warehousing",
+  "heroService4": "Servicio de Courier",
+  "heroService5": "Servicio de Carga aerea y maritima",
+  "heroAddress": "2120 NW 96th ave, Doral, FL, 33172",
+  "heroButton1": "Registrate",
+  "heroButton2": "Contacta con un asesor",
+  "maxRowsAlert": "Se ha alcanzado el número máximo de filas (10).",
+  "completeFieldsAlert": "Por favor, completa todos los campos correctamente antes de calcular las tarifas.",
+  "selectCourierAlert": "Por favor, selecciona un courier antes de calcular las tarifas.",
+  "dimensionsRequiredAlert": "Para el courier 'Spain', las dimensiones son necesarias.",
+  "yourShipment": "Tu envío",
+  "freight": "Flete",
+  "insurance": "Seguro",
+  "taxValue": "Valor de impuesto",
+  "totalIn": "Total en",
+  "back": "Volver",
+  "importCourier": "Importación Courier",
+  "calculateShippingRates": "Calcula tarifas de envío",
+  "fullName": "Nombre Completo",
+  "usernameFieldValid": "¡El campo de nombre de usuario es válido!",
+  "usernameFieldInvalid": "¡El campo de nombre de usuario no puede estar vacío!",
+  "phone": "Teléfono",
+  "emailAddress": "Dirección de correo electrónico",
+  "city": "Ciudad",
+  "courierColombia": "Courier Colombia",
+  "courierChina": "Courier China",
+  "courierSpain": "Courier España",
+  "boxes": "Cajas",
+  "weight": "Peso",
+  "dimensions": "Dimensiones (Largo x Ancho x Alto)",
+  "declaredValue": "Valor Declarado",
+  "calculateRates": "Calcular Tarifas",
+  "declaredValueAlert": "El valor declarado no puede ser mayor que 2000.",
+  "contactDescription": "Tus preguntas son importantes para nosotros. Estamos aquí para ayudarte. ¡No dudes en contactarnos con cualquier consulta que tengas!",
+  "location": "Ubicación",
+  "call": "Llama",
+  "name": "Nombre",
+  "email": "Email",
+  "whyContact": "¿Por qué nos contactas?",
+  "message": "Mensaje",
+  "cargando": "Cargando...",
+  "sentMessage": "Tu mensaje ha sido enviado. ¡Gracias!",
+  "sendMessage": "Enviar Mensaje",
+  "errorMessage": "No se pudo enviar el mensaje. Por favor, inténtelo de nuevo más tarde.",
+  "trackyourshipment": "Rastrea tu envio",
+  "trackbutton": " Rastrea",
+  "thankYouMessage": "Gracias por contactarnos. Alguien se pondrá en contacto con usted en breve.",
+  "thankMessage": "Gracias por contactarnos. Alguien se pondrá en contacto con usted en breve.",
+  "thankYouMessage1": "Gracias por contactarnos. Alguien se pondrá en contacto con usted en breve.",
+  "thankYouMessage2": "Gracias por contactarnos. Alguien se pondrá en contacto con usted en breve.",
+  "trackingnumber": "Numero de guia ",
+  "followus" : "Síguenos en nuestras redes sociales",
+  "joinus":"Únete a nuestra comunidad y descubre inspiración diaria.¡Síguenos ahora para no perderte de nada!",
+  "tituloWhite": "Experiencia WHITE GLOVE para Diseñadores",
+  "ParrafoWhite": "Desde la selección de materiales de primera calidad hasta la entrega final, nuestro equipo cuida cada detalle con precisión, garantizando proyectos completados con elegancia y perfección. Confía en nuestro apoyo excepcional para elevar tu trabajo a nuevas alturas de excelencia.",
+  "parrafoWhite2": "Servicio Especializado",
+  "tituloBodega": "Bodegaje Especializado",
+  "parrafoBodega": "Nuestro servicio garantiza la protección y organización de tus materiales, listos para tus proyectos. Con atención meticulosa, aseguramos que cada elemento esté disponible y en perfecto estado cuando lo necesites, optimizando así tu flujo de trabajo y la calidad de tus creaciones.",
+  "parrafoBodega2": "Servicio Especializado",
+  "chatMessage": "Hola, Bienvenido a Gib Traders, Como podemos ayudarte?",
+  "placeholder": "Contáctanos",
+  "horariosdeatencion":"Horarios de atención",
+
+  "horariosdeatencionp":"Lunes a Viernes de 9am a 5pm",
+  "registerMessage":"¿Deseas registrarte?",
+  
+  "designersPage": {
+    "sliderText": "Gib Traders se enorgullece de ser su socio de logística",
+    "sliderTitle": "Entrega segura, eficiente, y garantizada.",
+    "consultationButton": "Consulta Especializada",
+    "servicesTitle": "Servicios",
+   
+    "service1": {
+      "title": "Diseñadores y Salas de Exposición",
+      "description": "<strong>GIB TRADERS</strong> está dedicado al comercio de diseño, ofreciendo un servicio de WHITE GLOVE desde la recepción hasta la instalación. ¡Mantente al día en todos tus proyectos usando nuestro portal en línea, completo con imágenes y gestión de reclamaciones!"
+    },
+    "service2": {
+      "title": "Soluciones de Entrega a su Medida",
+      "description": "<strong>GIB TRADERS</strong> es su socio de confianza para la última milla. Deje que nuestro equipo profesional se encargue de planificar y completar su entrega con el más alto estándar de servicio. ¿Necesita almacenaje para su inventario? ¡Nosotros nos ocupamos!"
+    },
+    "service3": {
+      "title": "Almacenamiento y Envíos",
+      "description": "<strong>GIB TRADERS</strong> ofrece almacenamiento seguro y confiable para todas sus necesidades de almacenaje, distribución y logística de terceros. Desde embalaje personalizado hasta izado y envíos internacionales en contenedores, ¡nosotros nos encargamos de todo con profesionalidad y seguridad!"
+    },
+    "service4": {
+      "title": "Mudanzas y Almacenamiento",
+      "description": "<strong>GIB TRADERS</strong> cuenta con más de 20 años de experiencia en el manejo de las mudanzas más difíciles. Ya sea residencial, comercial o industrial, <strong>GIB TRADERS</strong> puede garantizar que su mudanza se realice con el más alto nivel de cuidado."
+    }
+  }
+,
+
+  "servicesCards": [
+    {
+      "title": "SERVICIO DE COURIER",
+      "content": "Proporcionamos servicios de courier para el envío de paquetes con un peso máximo de 110 libras y un valor declarado no superior a 2000 dólares. Si desea obtener una cotización para su envío, por favor, presione 'Cotizar'",
+      "button": "Cotizar",
+      "class": "gr-1",
+      "url": "http://localhost:3001/cotiza/calculadorapaquetes"
+    },
+    {
+      "title": "SERVICIO DE WAREHOUSE",
+      "content": "Ofrecemos almacenamiento seguro y organizado para tus productos. Con instalaciones modernas y un sistema de gestión eficiente, optimizamos tu cadena de suministro y adaptamos soluciones según las necesidades de tu negocio.",
+      "button": "Ingresar",
+      "class": "gr-4",
+      "url": "https://globuscargo.us/#/sign-up?a=90408c7a-fb1e-4b68-b000-8b02fe47ddf9"
+    },
+    {
+      "title": "SERVICIOS LOGISTICOS",
+      "content": "Tu aliado confiable en exportación e importación. ¿Necesitas asesoramiento para tu importación o deseas traer productos del exterior? ¡Contáctanos para recibir una cotización precisa y personalizada que impulse tus operaciones internacionales!",
+      "button": "Cotizar",
+      "class": "gr-2",
+      "url": "http://localhost:3001/cotiza"
+    },
+    {
+      "title": "WHITE GLOVE",
+      "content": "Si deseas conocer más sobre nuestro exclusivo servicio White Glove para diseñadores, visita nuestra página. Nuestro equipo está dedicado a proporcionar una experiencia personalizada y de alta calidad, asegurando que cada detalle sea perfecto para tus proyectos.",
+      "button": "Ingresar",
+      "class": "gr-3",
+      "url": "http://localhost:3000/disenadores"
+    }
+  ]
+}
+

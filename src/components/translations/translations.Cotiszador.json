@@ -1,0 +1,43 @@
+{
+    "en": {
+      "serviceButton": "Import and Export Services",
+      "title": "Discover How We Can Help You in International Trade",
+      "description": "Share your needs with us to personalize our assistance in imports and exports. Your success is our priority. Let's get started!",
+      "fullNamePlaceholder": "Full name",
+      "phoneNumberPlaceholder": "Phone number",
+      "emailPlaceholder": "Email Address",
+      "selectServicePlaceholder": "What service are you interested in?",
+      "textareaPlaceholder": "Enter your information here",
+      "thankYouMessage":"Thank you for contacting us. Someone will be reaching out shortly.",
+      "registerMessage":"¿Would you like to registe?",
+      "register":"Register",
+
+      "selectOptions": [
+        "Maritime Cargo Service",
+        "Air Cargo Service"
+      ],
+      "backButton": "Back",
+      "submitButton": "Submit"
+    },
+    "es": {
+      "serviceButton": "Servicio de Importaciones y Exportaciones",
+      "thankYouMessage": "Gracias por contactarnos. Alguien se pondrá en contacto con usted en breve.",
+      "title": "Descubre Cómo Podemos Ayudarte en el Comercio Internacional",
+      "description": "Comparte tus necesidades con nosotros para personalizar nuestra asistencia en importaciones y exportaciones. Tu éxito es nuestra prioridad. ¡Empecemos!",
+      "fullNamePlaceholder": "Nombre completo",
+      "phoneNumberPlaceholder": "Número de teléfono",
+      "emailPlaceholder": "Correo electrónico",
+      "selectServicePlaceholder": "¿En qué servicio estás interesado?",
+      "registerMessage":"¿Deseas registrarte?",
+      "textareaPlaceholder": "Ingrese su información aquí",
+      "register":"Registrate",
+      "selectOptions": [
+        "Servicio de carga marítima",
+        "Servicio de carga aérea"
+        
+      ],
+      "backButton": "Volver",
+      "submitButton": "Enviar"
+    }
+  }
+  

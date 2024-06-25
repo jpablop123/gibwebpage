@@ -1,0 +1,53 @@
+/*=== MEDIA QUERY ===*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700);
+
+
+
+
+
+
+
+
+.slider {
+  background: url("/src/Assets/img/camiongib.jpeg") no-repeat;
+  background-size: cover;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
+}
+
+.container-disenador .block {
+  margin-left: 40px; /* Adjust the value as needed */
+}
+
+.slider .block h1 {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.slider .block p {
+  margin-bottom: 30px;
+  color: #b9b9b9;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.slider .block span {
+  letter-spacing: 1px;
+}
+
+.intro-item {
+  display: flex; /* Use flexbox */
+  justify-content: flex-end; /* Align items to the end (right) */
+}
+
+.intro-item i {
+  font-size: 60px;
+  line-height: 60px;
+}
+

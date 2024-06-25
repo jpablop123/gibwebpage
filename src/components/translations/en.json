@@ -1,0 +1,145 @@
+{
+  "home": "Home",
+  "designers": "Designers",
+  "quote": "Quote",
+  "about": "About Us",
+  "contact": "Contact",
+  "services": "Services",
+  "register": "Register",
+  "locker": "Locker",
+  "title": "GIB Traders: Innovation and Mobility Solutions",
+  "paragraph1": "At Gib Traders, we specialize in strategic moves in the United States for designers, offering first-class 'WHITE GLOVE' services. From pickup to delivery, we handle every detail with exceptional precision and care. Our meticulous approach ensures that your products reach their final destination flawlessly, exceeding your customers' expectations. Trust us to manage your logistics movements efficiently and professionally, allowing you to focus on your core business while we take care of the rest. Likewise:",
+  "paragraph2": "Global Presence: With strategically located branches, we serve clients worldwide.",
+  "paragraph3": "Deep Experience: Our knowledge in all areas of logistics puts us at the forefront of the industry, providing effective and efficient solutions.",
+  "paragraph4": "Comprehensive Service: More than a transportation company, we offer complete services including secure and efficient warehousing for your products.",
+  "paragraph5": "Customer Commitment: Our focus on customer satisfaction and operational excellence makes us the ideal strategic partner for your logistics needs.",
+  "paragraph6": "Personalized Tracking: Through our portal, you can track your orders in detail and stay informed in real time.",
+  "heroTitle": "YOUR GLOBAL PARTNER IN TRANSPORTATION, LOGISTICS, WAREHOUSING, AND SPECIALIZED DELIVERIES.",
+  "heroService1": "Services for designers White glove",
+  "heroService2": "Specialized deliveries",
+  "heroService3": "Warehousing",
+  "heroService4": "Courier service",
+  "heroService5": "Air and sea freight service",
+  "heroAddress": "2120 NW 96th ave, Doral, FL, 33172",
+  "heroButton1": "Register",
+  "heroButton2": "Contact an advisor",
+  "maxRowsAlert": "Maximum number of rows (10) reached.",
+  "completeFieldsAlert": "Please complete all fields correctly before calculating rates.",
+  "selectCourierAlert": "Please select a courier before calculating rates.",
+  "dimensionsRequiredAlert": "For the courier 'Spain', dimensions are required.",
+  "yourShipment": "Your Shipment",
+  "freight": "Freight",
+  "insurance": "Insurance",
+  "taxValue": "Tax Value",
+  "totalIn": "Total in",
+  "back": "Back",
+  "importCourier": "Import Courier",
+  "calculateShippingRates": "Calculate Shipping Rates",
+  "fullName": "Full Name",
+  "usernameFieldValid": "Username field is valid!",
+  "usernameFieldInvalid": "Username field cannot be blank!",
+  "phone": "Phone",
+  "emailAddress": "E-mail Address",
+  "city": "City",
+  "courierColombia": "Courier Colombia",
+  "courierChina": "Courier China",
+  "courierSpain": "Courier Spain",
+  "boxes": "Boxes",
+  "weight": "Weight",
+  "dimensions": "Dimensions (Length x Width x Height)",
+  "declaredValue": "Declared Value",
+  "calculateRates": "Calculate Rates",
+  "declaredValueAlert": "Declared value cannot be greater than 2000.",
+  "contactDescription": "Your questions are important to us. We are here to help you. Don't hesitate to contact us with any inquiries you may have!",
+  "location": "Location",
+  "call": "Call",
+  "name": "Name",
+  "email": "Email",
+  "whyContact": "Why are you contacting us?",
+  "message": "Message",
+  "cargando": "Loading...",
+  "sentMessage": "Your message has been sent. Thank you!",
+  "sendMessage": "Send Message",
+  "errorMessage": "Failed to send message. Please try again later.",
+  "trackyourshipment": "Track your package",
+  "trackbutton": " Track",
+  "trackingnumber": "Tracking Number ",
+  "followus" : "Follow us on our social media",
+  "joinus": "Join our community and discover daily inspiration. Follow us now so you don't miss anything!",
+  "tituloWhite": "WHITE GLOVE Experience for Designers",
+  "ParrafoWhite": "From the selection of top-quality materials to final delivery, our team takes care of every detail with precision, ensuring projects are completed with elegance and perfection. Trust our exceptional support to elevate your work to new heights of excellence.",
+  "parrafoWhite2": "Specialized Service",
+  "tituloBodega": "Specialized Storage",
+  "parrafoBodega": "Our service guarantees the protection and organization of your materials, ready for your projects. With meticulous attention, we ensure that each element is available and in perfect condition when you need it, thus optimizing your workflow and the quality of your creations.",
+  "parrafoBodega2": "Specialized Service",
+  "chatMessage": "Hello,Welcome to Gib Traders, how can we help you?",
+  "thankYouMessage":"Thank you for contacting us. Someone will be reaching out shortly.",
+  "thankMessage":"Thank you for contacting us. Someone will be reaching out shortly.",
+  "thankMessage2":"Thank you for contacting us. Someone will be reaching out shortly.",
+  "horariosdeatencion":"Business Hours",
+  "horariosdeatencionp":"Monday to Friday from 9am to 5pm",
+  "registerMessage":"¿Would you like to registe?",
+
+  "placeholder": "Contact us",
+  "designersPage": {
+    "sliderText": "Gib Traders is proud to be your logistics partner",
+    "sliderTitle": "Safe delivery, efficient, and guaranteed.",
+    "consultationButton": "Specialized Consultation",
+    "servicesTitle": "Services",
+  
+    "service1": {
+      "title": "Designers and Showrooms",
+      "description": "<strong>GIB TRADERS</strong> is dedicated to design trade, offering WHITE GLOVE service from reception to installation. Stay updated on all your projects using our online portal, complete with images and claim management!"
+    },
+    "service2": {
+      "title": "Tailored Delivery Solutions",
+      "description": "<strong>GIB TRADERS</strong> is your trusted partner for the last mile. Let our professional team plan and complete your delivery with the highest standard of service. Need warehousing for your inventory? We've got you covered!"
+    },
+    "service3": {
+      "title": "Warehousing and Shipping",
+      "description": "<strong>GIB TRADERS</strong> offers safe and reliable storage for all your warehousing, distribution, and third-party logistics needs. From custom packaging to hoisting and international container shipping, we handle everything with professionalism and safety!"
+    },
+    "service4": {
+      "title": "Movements and Storage",
+      "description": "<strong>GIB TRADERS</strong> has over 20 years of experience handling the most challenging moves. Whether residential, commercial, or industrial, <strong>GIB TRADERS</strong> can ensure your move is executed with the highest level of care."
+    }
+  },
+
+  "servicesCards": [
+    {
+      "title": "COURIER SERVICE",
+      "content": "We provide courier services for sending packages with a maximum weight of 110 pounds and a declared value not exceeding 2000 dollars. If you want to get a quote for your shipment, please press 'Quote'",
+      "button": "Quote",
+      "class": "gr-1",
+      "url": "http://localhost:3001/cotiza/calculadorapaquetes"
+    },
+    {
+      "title": "WAREHOUSE SERVICE",
+      "content": "We offer secure and organized storage for your products. With modern facilities and an efficient management system, we optimize your supply chain and tailor solutions according to your business needs.",
+      "button": "Enter",
+      "class": "gr-4",
+      "url": "https://globuscargo.us/#/sign-up?a=90408c7a-fb1e-4b68-b000-8b02fe47ddf9"
+    },
+    {
+      "title": "LOGISTICS SERVICES",
+      "content": "Your reliable ally in export and import. Need advice for your import or want to bring products from abroad? Contact us to receive an accurate and personalized quote that boosts your international operations!",
+      "button": "Quote",
+      "class": "gr-2",
+      "url": "http://localhost:3001/cotiza"
+    },
+    {
+      "title": "WHITE GLOVE",
+      "content": "If you want to learn more about our exclusive White Glove service for designers, visit our page. Our team is dedicated to providing a personalized and high-quality experience, ensuring every detail is perfect for your projects.",
+      "button": "Enter",
+      "class": "gr-3",
+      "url": "http://localhost:3000/disenadores"
+    }
+  ]
+}
+
+
+
+
+  
+
+  

@@ -1,0 +1,49 @@
+{
+    "en": {
+      "title": "Welcome, select an option to quote your shipment",
+      "cards": [
+        {
+          "title": "Courier Quotation",
+          "backText": "Get a quote for your courier shipments with the following requirements: the weight must not exceed 110 lbs, and the cost must not exceed $2000. If you want to know how much it would cost to make the shipment, press the button.",
+          "buttonText": "Go to Quote",
+          "link": "calculadorapaquetes"
+        },
+        {
+          "title": "Quote Cargo from USA",
+          "backText": "If you want to get a quote for your cargo, press the button to receive a personalized shipment. A specialist will assist you with all your requirements.",
+          "buttonText": "Quote",
+          "link": "/cotiza/calculadoraimportaciones"
+        },
+        {
+          "title": "International Quotations",
+          "backText": "For a specialized service, press the following button and send us a message. An advisor will help you with everything you need.",
+          "buttonText": "Quote",
+          "link": "/cotiza/calculadoraimportaciones"
+        }
+      ]
+    },
+    "es": {
+      "title": "Bienvenido, selecciona una opcion para cotizar tu envio",
+      "cards": [
+        {
+          "title": "Cotizacion Courier",
+          "backText": "Cotiza tus envíos courier con los siguientes requerimientos: el peso no debe superar las 110 libras y el costo no debe exceder los 2000 dólares. Si deseas saber cuánto te costaría realizar el envío, presiona el botón.",
+          "buttonText": "Calcular",
+          "link": "calculadorapaquetes"
+        },
+        {
+          "title": "Cotiza carga desde USA",
+          "backText": "Si deseas cotizar tu carga, presiona el botón para obtener un envío personalizado. Un especialista te ayudará con todos tus requerimientos",
+          "buttonText": "Cotiza",
+          "link": "/cotiza/calculadoraimportaciones"
+        },
+        {
+          "title": "Cotizaciones Internacionales",
+          "backText": "Para un servicio especializado, presiona el siguiente botón y envíanos un mensaje. Un asesor se encargará de ayudarte en todo lo que necesites.",
+          "buttonText": "Cotiza",
+          "link": "/cotiza/calculadoraimportaciones"
+        }
+      ]
+    }
+  }
+  
